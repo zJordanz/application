@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Coursework</string>
+    <string-array name="numbers">
+        <item> SELECT COURSE</item>
+        <item>  Computer Science</item>
+        <item> Maths</item>
+        <item> Engineering</item>
+        <!--<item> Four</item>-->
+        <!--<item> Five</item>-->
+    </string-array>
+
+</resources>

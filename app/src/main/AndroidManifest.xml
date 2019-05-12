@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.coursework">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".eng_rem"
+            android:screenOrientation="portrait"
+            ></activity>
+        <activity android:name=".projects"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".engineering"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Reminders2"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Algebra"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Maths"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Mob_rem3"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Mob_rem1"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Mob_rem2"
+            android:screenOrientation="portrait" />
+        <activity android:name=".mobile_reminder"
+            android:screenOrientation="portrait" />
+        <activity android:name=".pop_up"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Object_Orientated_Programming"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Computer_science"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Web"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Courses"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Reminders"
+            android:screenOrientation="portrait" />
+        <activity android:name=".launch"
+            android:screenOrientation="portrait" />
+        <activity android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Pop"
+            android:theme="@style/AppTheme.custom_theme" />
+        <activity android:name=".pop_win" />
+
+        <receiver android:name=".AlarmReceiver" />
+    </application>
+
+</manifest>

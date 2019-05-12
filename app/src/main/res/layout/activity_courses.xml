@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Courses"
+    android:orientation="vertical"
+    android:background="#D3D3D3">
+    <ImageView
+        android:layout_width="192dp"
+        android:layout_height="401dp"
+        android:src="@drawable/test"
+        android:layout_gravity="center"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Courses"
+        android:textSize="28dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="-60dp"
+        />
+
+    <Button
+    android:id="@+id/Computer_Sci"
+    style="@style/Widget.AppCompat.Button.Small"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Computer science"
+    android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+    <Button
+        android:id="@+id/Maths"
+        style="@style/Widget.AppCompat.Button.Small"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Maths "
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+    <Button
+        android:id="@+id/Engineering"
+        style="@style/Widget.AppCompat.Button.Small"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Engineering"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+    <!--<EditText-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:hint="Enter a course"-->
+        <!--android:textColorHint="@android:color/background_light"-->
+        <!--android:id="@+id/course"/>-->
+<!--<Spinner-->
+    <!--android:id="@+id/spinner1"-->
+    <!--android:layout_width="200dp"-->
+    <!--android:layout_height="25dp"-->
+    <!--android:layout_gravity="center"-->
+    <!--android:layout_marginTop="50dp"-->
+<!---->
+<!---->
+    <!--/>-->
+</LinearLayout>
